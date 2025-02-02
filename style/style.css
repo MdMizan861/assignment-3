@@ -4,3 +4,12 @@
 .first-para{
     text-align: center;
 }
+.service{
+    text-align: center;
+}
+.bg-image{
+    background-image: url(../c2-assets/vegetable-offer.png);
+    background-repeat: no-repeat;
+    background-size:;
+    background-position: bottom right;
+    margin: auto;}
