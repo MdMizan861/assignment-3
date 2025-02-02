@@ -10,6 +10,37 @@
 .bg-image{
     background-image: url(../c2-assets/vegetable-offer.png);
     background-repeat: no-repeat;
-    background-size:;
     background-position: bottom right;
     margin: auto;}
+
+.daawat{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrival{
+    display: grid;
+    grid-template-columns: 60% auto;
+    height: 100%;
+    gap: 10px;
+}
+
+.section{
+    position: absolute;
+}
+
+
+@media screen and (max-width:768px) {
+    .arrival{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
